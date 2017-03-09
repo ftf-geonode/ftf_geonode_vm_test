@@ -9,7 +9,7 @@ Vagrant.configure(2) do |config|
   #config.vm.network "forwarded_port", guest: 8000, host: 8000  # Uses unix ports for django
   config.vm.network "forwarded_port", guest: 8080, host: 8080
 
-  #config.vm.synced_folder "~/workspaces/usaid-nepal-geonode/usaid_nepal_geonode_project.git", "/home/vagrant/usaid_nepal_geonode_project.git"
+  #config.vm.synced_folder "~/workspaces/ftf-geonode/ftf_geonode_project.git", "/home/vagrant/ftf_geonode_project.git"
   #config.vm.synced_folder "~/workspaces/public/geonode.git", "/home/vagrant/geonode.git"
 
   config.vm.provider "virtualbox" do |vb|

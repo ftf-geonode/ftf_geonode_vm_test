@@ -1,6 +1,6 @@
-# usaid_nepal_geonode_vm_test
+# ftf_geonode_vm_test
 
-This repo is used to launch a USAID Nepal GeoNode into a Vagrant Virtual Machine for testing.
+This repo is used to launch a FTF GeoNode into a Vagrant Virtual Machine for testing.
 
 ## Usage
 

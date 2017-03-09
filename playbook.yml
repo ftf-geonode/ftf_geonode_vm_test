@@ -2,11 +2,11 @@
   hosts: all
   remote_user: vagrant
   vars:
-    app_name: usaid_nepal_geonode
+    app_name: ftf_geonode
     github_user: pjdufour
     server_name: 0.0.0.0
     deploy_user: vagrant
-    code_repository: "https://github.com/usaid-nepal-geonode/usaid_nepal_geonode.git"
+    code_repository: "https://github.com/ftf-geonode/ftf_geonode.git"
     branch_name: master
     virtualenv_dir: "/home/vagrant/.venvs"
     site_url: "http://localhost:8000/"
